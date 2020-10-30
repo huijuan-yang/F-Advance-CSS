@@ -7,6 +7,10 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 * {
@@ -17,4 +21,154 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.header-text {
+  color: gray;
+  font-weight: normal;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.footer {
+  text-align: center;
+  color: gray;
+  background-color: #dcdcdc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid gray;
+  font-size: small;
+  margin-top: 40px;
+}
+
+.left-aside,
+.right-aside {
+  width: 20%;
+}
+
+.about-section {
+  background-color: #dcdcdc;
+  padding: 20% 10%;
+}
+
+.archives-section {
+  padding: 20% 10%;
+}
+
+.aside-title {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.right-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  background-color: #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20% 10%;
+}
+
+.email-input {
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding-left: 8px;
+}
+
+.password-input {
+  height: 35px;
+  border: 1px solid gray;
+  border-top: none;
+  border-radius: 2px;
+  padding-left: 8px;
+}
+
+.checkbox-container {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: small;
+  vertical-align: middle;
+}
+
+.signin-btn {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+}
+
+.article-section {
+  width: 50%;
+}
+
+.article1,
+.article3 {
+  float: left;
+  border: 1px solid #dcdcdc;
+  width: 48%;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px #dcdcdc;
+}
+
+.article2 {
+  float: right;
+  border: 1px solid #dcdcdc;
+  width: 48%;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px #dcdcdc;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.title-style {
+  padding: 5% 10%;
+  margin-bottom: 0;
+}
+
+.text-style {
+  padding: 5% 10%;
+  font-size: small;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.link-tag {
+  padding: 5% 10%;
+  font-size: small;
+  padding-top: 0;
+  color: dodgerblue;
+}
+
+.aside-text {
+  font-size: small;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
 }
